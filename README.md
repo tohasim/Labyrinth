@@ -2,3 +2,4 @@
 - Det er en rekursiv implementation, der gemmer routen i en stack (blot implementeret med js array)
 - Ruten beregnes i ét hug
 - Jeg viser evt. backtracking med blå prikker
+https://tohasim.github.io/Labyrinth/
