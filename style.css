@@ -1,0 +1,60 @@
+#container {
+	float: left;
+	box-sizing: border-box;
+	display: grid;
+	border: 2px solid purple;
+	grid-template-columns: repeat(var(--GRID_COLS), max-content);
+	width: min-content;
+}
+.cell {
+	border: 2px dotted gray;
+	width: 64px;
+	aspect-ratio: 1 / 1;
+	font-size: 300%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+#info {
+	display: flex;
+	align-items: center;
+}
+
+#info .cell {
+	border: 0;
+}
+
+.north {
+	border-top: 2px solid purple;
+}
+.south {
+	border-bottom: 2px solid purple;
+}
+.east {
+	border-right: 2px solid purple;
+}
+.west {
+	border-left: 2px solid purple;
+}
+
+#start {
+	background-color: aquamarine;
+}
+
+#goal {
+	background-color: goldenrod;
+}
+
+.finalRoute {
+	border-radius: 100%;
+	background-color: red;
+	width: 10px;
+	height: 10px;
+}
+
+.route {
+	border-radius: 100%;
+	background-color: rgb(30, 0, 255);
+	width: 10px;
+	height: 10px;
+}
