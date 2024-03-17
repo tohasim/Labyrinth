@@ -1,0 +1,934 @@
+{
+  "rows": "10",
+  "cols": "10",
+  "start": {
+    "row": 6,
+    "col": 5
+  },
+  "goal": {
+    "row": 0,
+    "col": 0
+  },
+  "maze": [
+    [
+      {
+        "row": 0,
+        "col": 0,
+        "north": true,
+        "south": false,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "north": true,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "north": true,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "north": true,
+        "south": false,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 0,
+        "col": 7,
+        "north": true,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 0,
+        "col": 8,
+        "north": true,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 0,
+        "col": 9,
+        "north": true,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      }
+    ],
+    [
+      {
+        "row": 1,
+        "col": 0,
+        "north": false,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "north": true,
+        "south": false,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "north": false,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "north": false,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "north": true,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 1,
+        "col": 7,
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 1,
+        "col": 8,
+        "north": false,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 1,
+        "col": 9,
+        "north": false,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      }
+    ],
+    [
+      {
+        "row": 2,
+        "col": 0,
+        "north": false,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "north": false,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "north": true,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "north": true,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "north": false,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "north": true,
+        "south": false,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "north": false,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 2,
+        "col": 7,
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 2,
+        "col": 8,
+        "north": true,
+        "south": false,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 2,
+        "col": 9,
+        "north": false,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      }
+    ],
+    [
+      {
+        "row": 3,
+        "col": 0,
+        "north": false,
+        "south": true,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "north": false,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "north": false,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "north": false,
+        "south": false,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "north": false,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "north": false,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "north": true,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 3,
+        "col": 7,
+        "north": false,
+        "south": true,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 3,
+        "col": 8,
+        "north": false,
+        "south": true,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 3,
+        "col": 9,
+        "north": false,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      }
+    ],
+    [
+      {
+        "row": 4,
+        "col": 0,
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "north": true,
+        "south": false,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "north": true,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "north": false,
+        "south": true,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "north": false,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "north": false,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 4,
+        "col": 7,
+        "north": true,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 4,
+        "col": 8,
+        "north": true,
+        "south": false,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 4,
+        "col": 9,
+        "north": false,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      }
+    ],
+    [
+      {
+        "row": 5,
+        "col": 0,
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "north": false,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "north": true,
+        "south": false,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "north": true,
+        "south": false,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 5,
+        "col": 7,
+        "north": false,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 5,
+        "col": 8,
+        "north": false,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 5,
+        "col": 9,
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      }
+    ],
+    [
+      {
+        "row": 6,
+        "col": 0,
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "north": false,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "north": false,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "north": true,
+        "south": false,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "north": false,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 6,
+        "col": 7,
+        "north": true,
+        "south": false,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 6,
+        "col": 8,
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 6,
+        "col": 9,
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      }
+    ],
+    [
+      {
+        "row": 7,
+        "col": 0,
+        "north": true,
+        "south": false,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "north": true,
+        "south": false,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "north": true,
+        "south": false,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 7,
+        "col": 4,
+        "north": false,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 7,
+        "col": 5,
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 7,
+        "col": 6,
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 7,
+        "col": 7,
+        "north": false,
+        "south": true,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 7,
+        "col": 8,
+        "north": true,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 7,
+        "col": 9,
+        "north": true,
+        "south": false,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      }
+    ],
+    [
+      {
+        "row": 8,
+        "col": 0,
+        "north": false,
+        "south": true,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "north": false,
+        "south": true,
+        "east": true,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "north": true,
+        "south": false,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "north": false,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 8,
+        "col": 5,
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 8,
+        "col": 6,
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 8,
+        "col": 7,
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 8,
+        "col": 8,
+        "north": false,
+        "south": false,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 8,
+        "col": 9,
+        "north": false,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      }
+    ],
+    [
+      {
+        "row": 9,
+        "col": 0,
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "north": false,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": true,
+        "partOfMaze": true
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 9,
+        "col": 5,
+        "north": false,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 9,
+        "col": 6,
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 9,
+        "col": 7,
+        "north": true,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 9,
+        "col": 8,
+        "north": false,
+        "south": true,
+        "east": false,
+        "west": false,
+        "partOfMaze": true
+      },
+      {
+        "row": 9,
+        "col": 9,
+        "north": true,
+        "south": true,
+        "east": true,
+        "west": false,
+        "partOfMaze": true
+      }
+    ]
+  ]
+}
